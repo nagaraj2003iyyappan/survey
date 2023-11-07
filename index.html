@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Survey Form</title>
+</head>
+<body background="worldwide-connection-blue-background-vector-37798471.jpg">
+    <div class="container">
+        <form id="survey-form">
+            <h1>Survey Form</h1>
+            <p>Please take a moment to fill out this survey.</p>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <label for="male"><input type="radio" id="male" name="gender" value="male"> Male</label>
+                <label for="female"><input type="radio" id="female" name="gender" value="female"> Female</label>
+            </div>
+            <div class="form-group">
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
